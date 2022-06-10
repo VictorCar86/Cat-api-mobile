@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+html {
+    font-size: 62.5%;
+    font-family: "Ubuntu", sans-serif;
+}
+.navbar {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 54px;
+    width: 100%;
+    background: linear-gradient(0deg, rgba(254,193,120,1) 0%, rgba(255,159,86,1) 65%, rgba(252,130,59,1) 100%);
+    border-bottom: 2px #d9994d solid;
+}
+.navbar_cat-icon {
+    display: inline-block;
+    background-image: url("/assets/feliz-32px.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+}
+.navbar h1 {
+    margin-left: 10px;
+    font-size: 2.0rem;
+    color: #354242;
+}
+
+main {
+    background-color: aqua;
+}
+.entire-container {
+    width: 90%;
+    margin: 0 auto;
+    background-color: antiquewhite;
+}
+.entire-container > h2 {
+    padding-top: 75px;
+    text-align: center;
+    font-size: 2.0rem;
+}
+.random-container_article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.random-container_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 300px;
+    margin-top: 10px;
+}
+.random-container_img img {
+    width: 250px;
+    max-height: 300px;
+}

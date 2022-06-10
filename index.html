@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/style.css">
+    <title>Michis Muy Lindos</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <span class="navbar_cat-icon"></span>
+            <h1>Michis Random</h1>
+        </nav>
+    </header>
+    <main>
+        <section class="entire-container">
+            <h2>Selecciona al michi que quieres guardar en Favoritos 😺</h2>
+            <section class="random-container">
+                <article id="random_michis" class="random-container_article">
+                    <div class="random-container_img">
+                        <img id="random_img" alt="foto aleatoria de gatitos">
+                    </div>
+                    <button id="recharge_button">Recargar Michis</button>
+                    <button id="btn_fav">Guargar Michi en favoritos</button>
+                </article>
+            </section>
+            <h3>Tus Michis Favoritos</h3>
+            <section id="favMichis">
+            </section>
+        </section>
+        <!-- <section>
+            <h2>Sube la foto de tu michi uwu</h2>
+            <form id="uploadingForm">
+                <input type="file" id="file" name="file">
+                <button type="button" onclick="uploadMichiphoto()">Subir foto</button>
+            </form>
+        </section> -->
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./src/main.js"></script>
+</body>
+</html>
