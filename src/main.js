@@ -48,10 +48,10 @@ async function getFavoritesMichis(){
                 const article = document.createElement("article")
                 const img = document.createElement("img")
                 const btn = document.createElement("button")
-                const btnText = document.createTextNode("Eliminar Michi de Favoritos")
+                const btnText = document.createTextNode("X")
 
                 img.src = michi.image.url
-                img.width = 200
+                img.width = 250
                 btn.appendChild(btnText)
                 btn.onclick = () => deleteFavMichi(michi.id)
                 article.appendChild(img)
