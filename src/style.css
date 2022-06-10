@@ -20,7 +20,7 @@ html {
 }
 .navbar_cat-icon {
     display: inline-block;
-    background-image: url("/assets/feliz-32px.png");
+    background-image: url("../assets/feliz-32px.png");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -85,7 +85,7 @@ main {
 }
 .fav-button ._star-decoration {
     display: inline-block;
-    background-image: url("/assets/star.png");
+    background-image: url("../assets/star.png");
     background-position: center;
     background-size: contain;
     width: 20px;
@@ -109,7 +109,7 @@ main {
 }
 .recharge-button ._reload-decoration {
     display: inline-block;
-    background-image: url("/assets/loop.png");
+    background-image: url("../assets/loop.png");
     background-position: center;
     background-size: cover;
     width: 24px;
