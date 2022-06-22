@@ -1,0 +1,59 @@
+main {
+    height: 100vh;
+}
+.entire-container > h2 {
+    padding-top: 67px;
+    padding-bottom: 0;
+}
+.random-container_article {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 300px 200px;
+    grid-template-rows: repeat(2, 180px);
+    grid-template-areas:
+        "cats btn_fav"
+        "cats btn_rld";
+}
+.random-container_img {
+    grid-area: cats;
+    margin: 10px auto 0;
+}
+.fav-button {
+    margin: 100px auto 0;
+    grid-area: btn_fav;
+}
+.entire-container > h3 {
+    margin-top: 13px;
+}
+.recharge-button {
+    grid-area: btn_rld;
+    margin: 0 auto 100px;
+}
+.favMichis-container {
+    flex-direction: row;
+    overflow-x: scroll;
+}
+.favMichis-container img {
+    margin: 30px;
+}
+.favMichis-container button {
+    top: 12px;
+    right: 12px;
+    color: #d9d9d9;
+    background-color: #c01515;
+}
+.favMichis-container::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+.favMichis-container::-webkit-scrollbar-thumb {
+    background-color: #d3d3d3;
+    border-radius: 4px;
+}
+.favMichis-container::-webkit-scrollbar-thumb:hover {
+    background: #b3b3b3;
+}
+.favMichis-container::-webkit-scrollbar-thumb:active {
+    background-color: #999999;
+}
